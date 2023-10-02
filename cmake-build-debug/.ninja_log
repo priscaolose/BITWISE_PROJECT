@@ -1,0 +1,10 @@
+# ninja log v5
+0	2926	1696225020666884138	CMakeFiles/bitwise_project.dir/library.c.o	3df6bf6f697a9b76
+4	125	1696229184485396458	CMakeFiles/bitwise_project.dir/Endian.c.o	8548373c058e4ee1
+2	127	1696225844229147555	CMakeFiles/bitwise_project.dir/major1.c.o	2f947d5c38392de5
+127	177	1696225844282004000	libbitwise_project.a	5dd491b3dee1bfef
+1	256	1696229445484616878	CMakeFiles/bitwise_project.dir/major1.c.o	2f947d5c38392de5
+256	309	1696229445543004000	libbitwise_project.a	5dd491b3dee1bfef
+5	460	1696230014685250190	CMakeFiles/bitwise_project.dir/Endian.c.o	8548373c058e4ee1
+0	126	1696231156725102002	CMakeFiles/bitwise_project.dir/major1.c.o	2f947d5c38392de5
+127	186	1696231156791188000	libbitwise_project.a	5dd491b3dee1bfef

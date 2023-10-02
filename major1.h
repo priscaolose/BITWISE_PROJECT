@@ -1,6 +1,7 @@
 #ifndef MAJOR1_H_   /* Include guard */
 #define MAJOR1_H_
 
-/* Function prototypes of operations  */
+/* Function prototype of endian_swap */
+int endian_swap(int value);
 
-#endif 
+#endif
