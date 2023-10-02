@@ -3,10 +3,8 @@
 
 int main() {
     int choice;
-    int number;
-    int result;
 
-    //while (choice != 5){
+    while (choice != 5){
 
         /* Preview menu  */
         printf("Enter the menu option for the operation to perform:\n");
@@ -23,11 +21,16 @@ int main() {
             case 1:
                 break;
             case 2:
-                printf("Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): ");
-                scanf("%d", &number);
-                result = endian_swap(number);
-                printf("Endian swap of %d gives: %d", number, result);
+                endian_swap();
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                printf("Program termintating. Goodbye...");
+                break;
         }
-    //}
+    }
     return 0;
 }

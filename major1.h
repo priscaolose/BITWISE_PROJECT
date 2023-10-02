@@ -2,6 +2,6 @@
 #define MAJOR1_H_
 
 /* Function prototype of endian_swap */
-int endian_swap(int value);
+int endian_swap();
 
 #endif
