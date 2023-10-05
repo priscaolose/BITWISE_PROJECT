@@ -1,0 +1,8 @@
+# ninja log v5
+7	156	1696455912460501892	CMakeFiles/..dir/rotate.c.o	55569e10861404c9
+3	156	1696455912460499310	CMakeFiles/..dir/Endian.c.o	96ab2e934919dc3d
+0	227	1696368634357927670	CMakeFiles/..dir/Users/priscaolose/Desktop/bitwise_project/major1.c.o	d209d96736ca7373
+7	155	1696455912460490358	CMakeFiles/..dir/parity.c.o	e0ff32fd55d6390c
+6	156	1696455912460824153	CMakeFiles/..dir/clz.c.o	13511822fb1ae18c
+156	281	1696455912591758000	lib..a	4164da02529f4879
+6	156	1696455912459873336	CMakeFiles/..dir/major1.c.o	99912c6c61af03ed
