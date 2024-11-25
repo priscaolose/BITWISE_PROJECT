@@ -5,17 +5,20 @@
 #include "major1.h"
 #include "stdbool.h"
 
-bool valid_input(int val){
+bool valid_input(int val)
+{
     long range = 4294967295;
-    if (val >= 1 && val <= range){
+    if (val >= 1 && val <= range)
+    {
         return true;
     }
     return false;
 }
 
-int endian_swap(){
+int endian_swap()
+{
 
-    int byte_zero; //least sig. bit
+    int byte_zero; // least sig. bit
     int byte_one;
     int byte_two;
     int byte_three; // most sig. bit
@@ -25,7 +28,8 @@ int endian_swap(){
 
     printf("Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): ");
     scanf("%d", &number);
-    while (!(valid_input(number))) {
+    while (!(valid_input(number)))
+    {
         printf("Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): ");
         scanf("%d", &number);
     }
@@ -35,8 +39,7 @@ int endian_swap(){
     byte_two = ((number & 0x00FF0000) >> 24);
     byte_three = ((number & 0xFF000000) >> 8);
     raw_result = (byte_zero | byte_one | byte_two | byte_three);
-    result = printf("Endian swap of %d gives: %d\n", number, raw_result);
+    result = printf("\033[1;32mEndian swap of %d gives: %d\033[0m\n", number, raw_result);
 
     return result;
 }
-
