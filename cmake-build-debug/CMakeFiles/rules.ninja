@@ -6,7 +6,11 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
+<<<<<<< HEAD
 # Project: .
+=======
+# Project: bitwise_project
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +18,11 @@
 #############################################
 # Rule for compiling C files.
 
+<<<<<<< HEAD
 rule C_COMPILER__.2e_unscanned_Debug
+=======
+rule C_COMPILER__bitwise_project_unscanned_Debug
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
   depfile = $DEP_FILE
   deps = gcc
   command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +32,11 @@ rule C_COMPILER__.2e_unscanned_Debug
 #############################################
 # Rule for linking C static library.
 
+<<<<<<< HEAD
 rule C_STATIC_LIBRARY_LINKER__.2e_Debug
+=======
+rule C_STATIC_LIBRARY_LINKER__bitwise_project_Debug
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
   command = $PRE_LINK && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f $TARGET_FILE && /Library/Developer/CommandLineTools/usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /Library/Developer/CommandLineTools/usr/bin/ranlib $TARGET_FILE && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +54,11 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
+<<<<<<< HEAD
   command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/priscaolose/Desktop/bitwise_project/bitwise_project -B/Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug
+=======
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/priscaolose/Desktop/bitwise_project -B/Users/priscaolose/Desktop/bitwise_project/cmake-build-debug
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
   description = Re-running CMake...
   generator = 1
 

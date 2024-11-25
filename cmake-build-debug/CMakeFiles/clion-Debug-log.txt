@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/priscaolose/Desktop/bitwise_project/bitwise_project -B /Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug
 -- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug
+=======
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/priscaolose/Desktop/bitwise_project -B /Users/priscaolose/Desktop/bitwise_project/cmake-build-debug
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/priscaolose/Desktop/bitwise_project/cmake-build-debug
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /Users/priscaolose/Desktop/bitwise_project/bitwise_project
+=======
+# Install script for directory: /Users/priscaolose/Desktop/bitwise_project
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/Users/priscaolose/Desktop/bitwise_project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

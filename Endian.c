@@ -5,9 +5,9 @@
 #include "major1.h"
 #include "stdbool.h"
 
-bool valid_input(int val)
+bool validInput(int val)
 {
-    long range = 4294967295;
+    long range = 4294967296;
     if (val >= 1 && val <= range)
     {
         return true;
@@ -28,7 +28,7 @@ int endian_swap()
 
     printf("Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): ");
     scanf("%d", &number);
-    while (!(valid_input(number)))
+    while (!(validInput(number)))
     {
         printf("Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): ");
         scanf("%d", &number);

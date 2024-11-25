@@ -11,7 +11,11 @@
 # =============================================================================
 
 # =============================================================================
+<<<<<<< HEAD
 # Project: .
+=======
+# Project: bitwise_project
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
 # Configurations: Debug
 # =============================================================================
 
@@ -39,6 +43,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
+<<<<<<< HEAD
 cmake_ninja_workdir = /Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target .
@@ -89,13 +94,63 @@ build lib..a: C_STATIC_LIBRARY_LINKER__.2e_Debug CMakeFiles/..dir/major1.c.o CMa
   PRE_LINK = :
   TARGET_FILE = lib..a
   TARGET_PDB = ..a.dbg
+=======
+cmake_ninja_workdir = /Users/priscaolose/Desktop/bitwise_project/cmake-build-debug/
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target bitwise_project
+
+
+#############################################
+# Order-only phony target for bitwise_project
+
+build cmake_object_order_depends_target_bitwise_project: phony || CMakeFiles/bitwise_project.dir
+
+build CMakeFiles/bitwise_project.dir/library.c.o: C_COMPILER__bitwise_project_unscanned_Debug /Users/priscaolose/Desktop/bitwise_project/library.c || cmake_object_order_depends_target_bitwise_project
+  DEP_FILE = CMakeFiles/bitwise_project.dir/library.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bitwise_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/bitwise_project.dir
+
+build CMakeFiles/bitwise_project.dir/major1.c.o: C_COMPILER__bitwise_project_unscanned_Debug /Users/priscaolose/Desktop/bitwise_project/major1.c || cmake_object_order_depends_target_bitwise_project
+  DEP_FILE = CMakeFiles/bitwise_project.dir/major1.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bitwise_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/bitwise_project.dir
+
+build CMakeFiles/bitwise_project.dir/Endian.c.o: C_COMPILER__bitwise_project_unscanned_Debug /Users/priscaolose/Desktop/bitwise_project/Endian.c || cmake_object_order_depends_target_bitwise_project
+  DEP_FILE = CMakeFiles/bitwise_project.dir/Endian.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bitwise_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/bitwise_project.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target bitwise_project
+
+
+#############################################
+# Link the static library libbitwise_project.a
+
+build libbitwise_project.a: C_STATIC_LIBRARY_LINKER__bitwise_project_Debug CMakeFiles/bitwise_project.dir/library.c.o CMakeFiles/bitwise_project.dir/major1.c.o CMakeFiles/bitwise_project.dir/Endian.c.o
+  ARCH_FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/bitwise_project.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libbitwise_project.a
+  TARGET_PDB = bitwise_project.a.dbg
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+<<<<<<< HEAD
   COMMAND = cd /Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+  COMMAND = cd /Users/priscaolose/Desktop/bitwise_project/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -106,7 +161,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+<<<<<<< HEAD
   COMMAND = cd /Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/priscaolose/Desktop/bitwise_project/bitwise_project -B/Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug
+=======
+  COMMAND = cd /Users/priscaolose/Desktop/bitwise_project/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/priscaolose/Desktop/bitwise_project -B/Users/priscaolose/Desktop/bitwise_project/cmake-build-debug
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -116,7 +175,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+<<<<<<< HEAD
 build .: phony lib..a
+=======
+build bitwise_project: phony libbitwise_project.a
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
 
 # =============================================================================
 # Folder targets.
@@ -124,9 +187,15 @@ build .: phony lib..a
 # =============================================================================
 
 #############################################
+<<<<<<< HEAD
 # Folder: /Users/priscaolose/Desktop/bitwise_project/bitwise_project/cmake-build-debug
 
 build all: phony lib..a
+=======
+# Folder: /Users/priscaolose/Desktop/bitwise_project/cmake-build-debug
+
+build all: phony libbitwise_project.a
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
 
 # =============================================================================
 # Built-in targets
@@ -135,14 +204,22 @@ build all: phony lib..a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
+<<<<<<< HEAD
 build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/priscaolose/Desktop/bitwise_project/bitwise_project/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+=======
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/priscaolose/Desktop/bitwise_project/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
+<<<<<<< HEAD
 build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/priscaolose/Desktop/bitwise_project/bitwise_project/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+=======
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/priscaolose/Desktop/bitwise_project/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+>>>>>>> d62a4c0bc2b60cc1091b4899b827403adfdbab37
 
 
 #############################################
