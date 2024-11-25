@@ -11,10 +11,10 @@ In this assignment, we have implemented a C program that performs various bitwis
 5. View the result.
 
 ## Team Members and Responsibilities
-- *Prisca Olose*:
-- *Bibek Bajagain*:
-- *Hiram Dominguez*:
-- *Sienna Newby-Sanchez*:
+- *Prisca Olose*: Endian Function
+- *Bibek Bajagain*: Counting Leading Zeros
+- *Hiram Dominguez*:Rotate Function
+- *Sienna Newby-Sanchez*: Parity Function
 
 ## Class Section
 CSCE 3600.004
